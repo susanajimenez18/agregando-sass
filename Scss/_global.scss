@@ -1,0 +1,53 @@
+/** colores */
+$dark-green-title: red;
+$dark-green-text: #135359;
+$white: #aa2fa4;
+
+/** fuentes */
+$font-title:"Alegreya", serif;
+
+%base-title{
+font-family:$font-title;
+color: $dark-green-text;
+display: flex;
+font-size: 30px;
+}
+
+.proces-list{
+margin-top: 20px;
+margin-bottom: 36px;
+}
+
+.process{
+& > div {
+    & > h3{
+        color:$dark-green-title;
+        margin-bottom: 0;
+        font-size: 30px;
+        font-weight: 500;
+        }
+    & > p{
+        color: $dark-green-text;
+        margin: 0;
+    }
+}
+}
+
+.process-icon{
+    width:60px;
+    height:60px;
+    margin-right: 10px;
+    text-align: center;
+    img{
+        height: 100%;
+    }
+}
+
+button{
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 12px;
+    width: 180px;
+    margin-bottom: 15px;
+}

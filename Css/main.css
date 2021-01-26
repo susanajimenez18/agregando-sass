@@ -1,0 +1,43 @@
+/** colores */
+/** fuentes */
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+  display: flex;
+  font-size: 30px; }
+
+.proces-list {
+  margin-top: 20px;
+  margin-bottom: 36px; }
+
+.process > div > h3 {
+  color: red;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500; }
+
+.process > div > p {
+  color: #135359;
+  margin: 0; }
+
+.process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center; }
+  .process-icon img {
+    height: 100%; }
+
+button {
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px; }
+
+.blog {
+  background-color: #aa2fa4;
+  width: 100%;
+  padding: 30px;
+  /*anidacion*/ }
