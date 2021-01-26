@@ -2,7 +2,7 @@
 /** fuentes */
 .blog .title {
   font-family: "Alegreya", serif;
-  color: #135359;
+  color: #2478bd;
   display: flex;
   font-size: 30px; }
 
@@ -11,13 +11,13 @@
   margin-bottom: 36px; }
 
 .process > div > h3 {
-  color: red;
+  color: #480a50;
   margin-bottom: 0;
   font-size: 30px;
   font-weight: 500; }
 
 .process > div > p {
-  color: #135359;
+  color: #2478bd;
   margin: 0; }
 
 .process-icon {
@@ -38,6 +38,6 @@ button {
 
 .blog {
   background-color: #aa2fa4;
-  width: 100%;
+  width: 30%;
   padding: 30px;
   /*anidacion*/ }
